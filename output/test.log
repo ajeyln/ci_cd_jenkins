@@ -1,0 +1,96 @@
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value is Ajeya
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is Your name is Ajeya
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\helper.py 2021-01-20 18:03:22 Displying your Name
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is Your name is Ajeya
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\helper.py 2021-01-20 18:03:22 Displying your Name
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is Welcome to India
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\helper.py 2021-01-20 18:03:22 Displying Greetings
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is Welcome to India
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\helper.py 2021-01-20 18:03:22 Displying Greetings
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\helper.py 2021-01-20 18:03:22 saying Hello
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 test to add two integer
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 4
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 5
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is 9
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will add two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is 9
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will add two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 test to subtract two integer
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 12
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 3
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is 9
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will subtract two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is 9
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will subtract two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will multiply two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22  test to check division of two numbers 
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 9
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 2
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is 4.5
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will divide two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is 4.5
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will divide two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22  test to check division of two numbers 
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 15
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 0
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is None
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will divide two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is None
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will divide two integer numbers
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22  test to check whether number is odd or even
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 4
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is even
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will check the given number is even or odd
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is even
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will check the given number is even or odd
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22  test to check whether number is odd or even
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Input value 1 is 7
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is odd
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will check the given number is even or odd
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is odd
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\operation.py 2021-01-20 18:03:22 This function will check the given number is even or odd
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 this function is to check the os information
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is /
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 conditions to check operating system
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 The Operations system is Linux
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is /
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 conditions to check operating system
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 The Operations system is Linux
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 this function is to check the os information
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is \
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 conditions to check operating system
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 The Operations system is Windows
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is \
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 conditions to check operating system
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\osinformation.py 2021-01-20 18:03:22 The Operations system is Windows
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 to find the friends surname in dict
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is Pai
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 to find the friends surname in dict
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 Friend Name is Bharat
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is Pai
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 to find the friends surname in dict
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 Friend Name is Bharat
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 to find the friends surname in dict
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is False
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 to find the friends surname in dict
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 Friend Name is Manoj
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is False
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 to find the friends surname in dict
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 Friend Name is Manoj
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Expected value is Name=Akash; Surname=Sharma;
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 here we are finding the person info
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Actual value is Name=Akash; Surname=Sharma;
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\test\test.py 2021-01-20 18:03:22 Test Passed
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 here we are finding the person info
+D:\Python_Learning_Repository\learn_python_forever\logging\excercises\libraries\sociallife.py 2021-01-20 18:03:22 here we are finding the person info
