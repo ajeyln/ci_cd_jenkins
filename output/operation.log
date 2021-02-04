@@ -1,13 +1,5 @@
-DEBUG:2021-01-20 18:03:22,167:This function will add two integer numbers
-DEBUG:2021-01-20 18:03:22,183:This function will add two integer numbers
-DEBUG:2021-01-20 18:03:22,183:This function will subtract two integer numbers
-DEBUG:2021-01-20 18:03:22,183:This function will subtract two integer numbers
-DEBUG:2021-01-20 18:03:22,199:This function will multiply two integer numbers
-DEBUG:2021-01-20 18:03:22,199:This function will divide two integer numbers
-DEBUG:2021-01-20 18:03:22,199:This function will divide two integer numbers
-DEBUG:2021-01-20 18:03:22,214:This function will divide two integer numbers
-DEBUG:2021-01-20 18:03:22,214:This function will divide two integer numbers
-DEBUG:2021-01-20 18:03:22,230:This function will check the given number is even or odd
-DEBUG:2021-01-20 18:03:22,230:This function will check the given number is even or odd
-DEBUG:2021-01-20 18:03:22,230:This function will check the given number is even or odd
-DEBUG:2021-01-20 18:03:22,230:This function will check the given number is even or odd
+DEBUG:2021-02-04 19:21:07,659:This function will add two integer numbers
+DEBUG:2021-02-04 19:21:07,664:This function will subtract two integer numbers
+DEBUG:2021-02-04 19:21:07,668:This function will multiply two integer numbers
+DEBUG:2021-02-04 19:21:07,672:This function will divide two integer numbers
+DEBUG:2021-02-04 19:21:07,676:This function will check the given number is even or odd

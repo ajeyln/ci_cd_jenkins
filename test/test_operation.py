@@ -4,7 +4,7 @@
 import os
 import sys
 path = os.getcwd() # current directory of the file
-file_path = (path + r'\..\libraries') # adding current to the importing directory
+file_path = (path + r'\libraries') # adding current to the importing directory
 sys.path.append(file_path)
 print(path)
 print(file_path)
