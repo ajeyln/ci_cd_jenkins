@@ -1,0 +1,70 @@
+pipeline {
+    agent any
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '2', artifactNumToKeepStr: '2'))
+    }
+    parameters {
+        string(name: 'USER_NAME', defaultValue: "",description: "User Name" )
+        string(name: 'NUMBER_1', defaultValue:"", description: "Number 1")
+        choice(name: 'NUMBER_2', choices:"1\n2\n3\n4\n5\n6\n7\n8\n9", description: "Number 2")
+        string(name: 'PERSON_NAME', defaultValue:"", description: "PERSON NAME")
+    }
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'checkout'
+                bat 'set'
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '6cfd2894-e12b-49a8-a08a-ee954f74144c', url: 'https://github.com/ajeyln/ci_cd_jenkins.git']]])
+                bat 'dir'
+            }
+        }
+        stage('Linting') {
+            steps {
+                echo 'Pylint'
+                input "Do you want to proceed for Testing stage?"
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pylint.exe libraries\\helper.py'
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pylint.exe libraries\\leastchar.py'
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pylint.exe libraries\\operation.py'
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pylint.exe libraries\\osinformation.py'
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pylint.exe libraries\\sociallife.py'
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pylint.exe source\\main.py'
+            }
+        }
+        stage('Testing') {
+            steps {
+                echo 'Pytest'
+                input "Do you want to proceed for Testing stage?"
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\pytest.exe'
+            }
+        }
+        stage('Executing') {
+            steps {
+                echo 'Executing'
+                input "Do you want to proceed for Executing stage?"
+                echo "${params.USER_NAME}"
+                echo "${params.NUMBER_1}"
+                echo "${params.NUMBER_2}"
+                echo "${params.PERSON_NAME}"
+                bat 'C:\\Users\\Ajey\\AppData\\Local\\Programs\\Python\\Python39\\python.exe source\\main.py ${params.USER_NAME} 120 6 ${params.PERSON_NAME}'
+            }
+        }
+        stage('package') {
+            steps {
+                echo 'archive files'
+                
+                // check this link: https://stackoverflow.com/questions/35890952/where-are-jenkins-artifacts-located
+                // JENKINS moves all the files into $JENKINS_HOME/jobs/<job>/builds/<build>/archive
+                archiveArtifacts artifacts: 'libraries/*,readme.md,source/*,test/*', followSymlinks: false, onlyIfSuccessful: true
+                bat 'dir'
+            }
+        }
+        stage('finish') {
+            steps {
+                echo 'cleanup'
+                cleanWs()
+                
+            }
+        }
+    }
+}
