@@ -18,7 +18,7 @@ logger.addHandler(stream_data)
 # File handler for debug
 formatter_debug = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_debug = logging.FileHandler("output\osinformation.log", "w+")
+filehandler_debug = logging.FileHandler("output\\osinformation.log", "w+")
 filehandler_debug.setLevel(logging.DEBUG)
 filehandler_debug.setFormatter(formatter_debug)
 
@@ -27,7 +27,7 @@ logger.addHandler(filehandler_debug)
 # formatter handler for info
 formatter_info = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_info = logging.FileHandler("output\osinformation.log", "w+")
+filehandler_info = logging.FileHandler("output\\osinformation.log", "w+")
 filehandler_info.setLevel(logging.INFO)
 filehandler_info.setFormatter(formatter_info)
 
@@ -36,7 +36,7 @@ logger.addFilter(filehandler_info)
 # File Handler for critical
 formatter_critical = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_critical = logging.FileHandler("output\osinformation.log", "w+")
+filehandler_critical = logging.FileHandler("output\\osinformation.log", "w+")
 filehandler_critical.setLevel(logging.CRITICAL)
 filehandler_critical.setFormatter(formatter_critical)
 
@@ -47,8 +47,7 @@ def find_os_path_separator():
     logger.debug('conditions to check operating system')
     os_name = platform.system()
     if os_name == "Windows" :
-        logger.debug(f"The Operations system is {os_name}")
+        logger.debug("The Operations system is %s", os_name)
         return "\\"
-    else:
-        logger.debug(f"The Operations system is {os_name}")
-        return "/"
+    logger.debug("The Operations system is %s" ,os_name)
+    return "/"

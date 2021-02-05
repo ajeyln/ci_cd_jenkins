@@ -1,6 +1,5 @@
-import logging
-
 ''' This script take you name as input and display your name'''
+import logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -16,7 +15,7 @@ logger.addHandler(stream_data)
 # File handler for debug
 formatter_debug = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_debug = logging.FileHandler("output\helper.log", "w+")
+filehandler_debug = logging.FileHandler("output\\helper.log")
 filehandler_debug.setLevel(logging.DEBUG)
 filehandler_debug.setFormatter(formatter_debug)
 
@@ -25,7 +24,7 @@ logger.addHandler(filehandler_debug)
 # formatter handler for info
 formatter_info = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_info = logging.FileHandler("output\helper.log", "w+")
+filehandler_info = logging.FileHandler("output\\helper.log")
 filehandler_info.setLevel(logging.INFO)
 filehandler_info.setFormatter(formatter_info)
 
@@ -34,7 +33,7 @@ logger.addFilter(filehandler_info)
 # File Handler for critical
 formatter_critical = logging.Formatter('%(levelname)s:%(asctime)s:%(message)s')
 
-filehandler_critical = logging.FileHandler("output\helper.log", "w+")
+filehandler_critical = logging.FileHandler("output\\helper.log")
 filehandler_critical.setLevel(logging.CRITICAL)
 filehandler_critical.setFormatter(formatter_critical)
 

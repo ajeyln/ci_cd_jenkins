@@ -1,8 +1,10 @@
 # Finding count of charecters in string
+
 ''' importing modules'''
 import pandas as pd
 
 def count_char(name_1):
+    '''this function is used to find the least charecters'''
     ser = pd.Series(list(name_1))
     freq = ser.value_counts()
     print(freq)
